@@ -5,7 +5,7 @@
     
     var text= document.getElementById("News");
     canvas.width = 614;
-    canvas.height = 700;
+    canvas.height = 800;
 
     var background = new Image();
     background.src = "static/image/"+(Math.floor(Math.random() * (7)) + 1)+".jpg";
